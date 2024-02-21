@@ -16,7 +16,7 @@ jobs:
     - name: Production artifacts
       uses: actions/upload-artifact@v4
       with:
-          name: target folder
+          name: targets folder
           path: |
-             target
+             targets
       
