@@ -13,7 +13,7 @@ jobs:
         distribution: 'temurin'
     - name: Install Dependencies
       run: mvn clean install
-    - name: Archive production artifacts
+    - name: Production artifacts
       uses: actions/upload-artifact@v4
       with:
           name: target folder
