@@ -26,4 +26,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: vijaykym/myjavaapp:latest
+          tags: vijaykym/myjavaapp:{{ github.run_id }}
