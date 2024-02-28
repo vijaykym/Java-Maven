@@ -1,4 +1,5 @@
 name: DockerPush
+
 on: [push, workflow_dispatch]
 jobs:
   build:
