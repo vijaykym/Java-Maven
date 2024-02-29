@@ -11,7 +11,7 @@ jobs:
   # This workflow contains a single job called "greet"
   greet:
     # The type of runner that the job will run on
-    runs-on: test runner
+    runs-on: self-hosted
 
  
     steps:
