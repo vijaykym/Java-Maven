@@ -1,9 +1,12 @@
 name: DockerPush
 
-on: [push, workflow_dispatch]
+on: [ workflow_dispatch]
 jobs:
   build:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
+    container: 
+     image:
+       ibmjava:8-jre
     steps:
       - name: Checkout
         uses: actions/checkout@v4
